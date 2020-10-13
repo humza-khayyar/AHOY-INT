@@ -1,0 +1,57 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30523.141
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AdminMicroService", "AdminMicroService", "{047CE608-FD27-4E22-88AC-7B4FFB11AD7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VehicleMicroService", "VehicleMicroService", "{370E1495-C6F5-4177-B96C-19F2C5E6D707}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "VehiclesAPI", "VehiclesAPI\VehiclesAPI.csproj", "{B624E992-D20A-42CF-A01C-2FACED2AFF6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminApi", "AdminApi\AdminApi.csproj", "{FB265C45-B988-4A3B-B7DA-4F20A255D006}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "BookingMicroService", "BookingMicroService", "{955ABD7D-95DB-4A83-B3F9-6D53693E7108}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BookingApi", "BookingApi\BookingApi.csproj", "{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "AzureFunctions", "AzureFunctions", "{2F4FD354-1587-467D-BE6C-9A84AF5E1367}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AzureFunctionHttpRecieve", "AzureFunctionHttpRecieve\AzureFunctionHttpRecieve.csproj", "{AD25939C-E694-448F-B48E-88D240A7E661}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B624E992-D20A-42CF-A01C-2FACED2AFF6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B624E992-D20A-42CF-A01C-2FACED2AFF6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B624E992-D20A-42CF-A01C-2FACED2AFF6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B624E992-D20A-42CF-A01C-2FACED2AFF6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB265C45-B988-4A3B-B7DA-4F20A255D006}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB265C45-B988-4A3B-B7DA-4F20A255D006}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB265C45-B988-4A3B-B7DA-4F20A255D006}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB265C45-B988-4A3B-B7DA-4F20A255D006}.Release|Any CPU.Build.0 = Release|Any CPU
+		{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD25939C-E694-448F-B48E-88D240A7E661}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD25939C-E694-448F-B48E-88D240A7E661}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD25939C-E694-448F-B48E-88D240A7E661}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD25939C-E694-448F-B48E-88D240A7E661}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B624E992-D20A-42CF-A01C-2FACED2AFF6A} = {370E1495-C6F5-4177-B96C-19F2C5E6D707}
+		{FB265C45-B988-4A3B-B7DA-4F20A255D006} = {047CE608-FD27-4E22-88AC-7B4FFB11AD7F}
+		{573AEFB2-F9B2-4C0D-8CA9-4427702DFE06} = {955ABD7D-95DB-4A83-B3F9-6D53693E7108}
+		{AD25939C-E694-448F-B48E-88D240A7E661} = {2F4FD354-1587-467D-BE6C-9A84AF5E1367}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {073DE40F-D5E4-4A97-858A-5380E6060CAA}
+	EndGlobalSection
+EndGlobal
